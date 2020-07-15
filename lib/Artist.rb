@@ -45,7 +45,9 @@ class Artist
   end
   
   def genres
-    
+    # returns collection of genres for THIS ARTIST's SONGS
+    # does return duplicate genres
+    # collects genres through its SONGS instead of its own @genres var
   end
   
 end
