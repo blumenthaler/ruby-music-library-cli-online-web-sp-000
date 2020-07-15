@@ -5,6 +5,7 @@ class Song
   @@all = []
   
   def artist=(artist)
+    @artist = artist
     
   end
   
