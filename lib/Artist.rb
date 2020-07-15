@@ -50,4 +50,8 @@ class Artist
     # collects genres through its SONGS instead of its own @genres var
   end
   
+  
+  
+  
+  
 end
