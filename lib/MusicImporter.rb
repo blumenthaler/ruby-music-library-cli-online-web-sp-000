@@ -14,7 +14,10 @@ class MusicImporter
   end
   
   def import
-    
+    # import FILES into the library by invoking Song.create_from_filename
+    self.files.each do |file|
+      Song.create_from_filename(file)
+    end
   end
   
 end
