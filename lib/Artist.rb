@@ -15,6 +15,8 @@ class Artist
     self.all.clear
   end
   
-  
+  def save
+    
+  end
   
 end
