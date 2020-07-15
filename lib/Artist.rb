@@ -49,7 +49,8 @@ class Artist
     # does return duplicate genres
     # collects genres through its SONGS instead of its own @genres var
 
-    songs.select {|song| song.genre.uniq}
+    new_array = songs.select {|song| song.genre.uniq}
+    
   end
   
   
