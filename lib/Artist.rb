@@ -51,7 +51,9 @@ class Artist
     @new_array = []
     @songs.each do |song|
       if @new_array.include?(song.genre)
-    
+        nil
+      else
+        @new_array << song.genre
   end
   
   
