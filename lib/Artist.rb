@@ -44,4 +44,8 @@ class Artist
     song
   end
   
+  def genres
+    
+  end
+  
 end
