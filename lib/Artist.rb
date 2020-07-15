@@ -50,7 +50,7 @@ class Artist
     # collects genres through its SONGS instead of its own @genres var
     @new_array = []
     @songs.each do |song|
-      if song.genre
+      if @new_array.include?(song.genre)
     
   end
   
