@@ -50,7 +50,7 @@ class Artist
     # collects genres through its SONGS instead of its own @genres var
 
     new_array = songs.select {|song| song.genre.uniq}
-    
+    new_array
   end
   
   
