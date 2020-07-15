@@ -27,8 +27,7 @@ class Artist
   end
   
   def songs
-    # returns artist's collection of songs
-    Songs.all.select {|song| song.artist == self}
+    @songs
   end
   
 end
