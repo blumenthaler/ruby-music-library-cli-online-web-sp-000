@@ -57,6 +57,9 @@ class Song
     song_artist = song_info[0] 
     song_genre = song_info[2].split(".mp3")
     
+  artist = Artist.find_or_create_by_name(song_artist)
+  genre = Genre.find_or_create_by_name(song_genre)
+  
   
 
   end
