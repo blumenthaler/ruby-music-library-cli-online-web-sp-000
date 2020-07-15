@@ -10,4 +10,5 @@ module Concerns::Findable
     else
       find_by_name(name)
     end
+  end
 end
