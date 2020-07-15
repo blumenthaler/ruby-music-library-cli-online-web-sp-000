@@ -48,7 +48,7 @@ class Artist
     # returns collection of genres for THIS ARTIST's SONGS
     # does return duplicate genres
     # collects genres through its SONGS instead of its own @genres var
-
+    @new_array = []
     @songs.each do |song|
       if song.genre
     
