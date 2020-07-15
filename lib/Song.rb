@@ -49,4 +49,9 @@ class Song
     end
   end
   
+  def self.new_from_filename(name)
+    # initializes song based on filename
+    # invokes Findable methods, avoiding object duplication????
+  end
+  
 end
