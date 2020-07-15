@@ -56,9 +56,4 @@ class Artist
     end
     @new_array
   end
-  
-  
-  
-  
-  
 end
