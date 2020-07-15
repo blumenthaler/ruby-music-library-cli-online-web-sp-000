@@ -48,8 +48,8 @@ class Artist
     # returns collection of genres for THIS ARTIST's SONGS
     # does return duplicate genres
     # collects genres through its SONGS instead of its own @genres var
-    
-    songs.
+
+    songs.select {|song| song.genres}
   end
   
   
