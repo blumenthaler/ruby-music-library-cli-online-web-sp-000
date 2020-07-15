@@ -36,7 +36,7 @@ class Genre
       if @new_array.include?(song.artist)
         nil
       else
-        @new_array << song.genre
+        @new_array << song.artist
       end
     end
     @new_array
