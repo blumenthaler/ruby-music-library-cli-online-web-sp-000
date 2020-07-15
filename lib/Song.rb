@@ -50,7 +50,7 @@ class Song
     end
   end
   
-  def self.new_by_filename(filename)
+  def self.new_from_filename(filename)
     song_info = filename.split(" - ")
     
     song_name = song_info[1]
