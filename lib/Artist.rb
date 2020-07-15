@@ -56,6 +56,7 @@ class Artist
         @new_array << song.genre
       end
     @new_array
+    end
   end
   
   
