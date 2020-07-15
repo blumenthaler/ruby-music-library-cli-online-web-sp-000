@@ -5,9 +5,11 @@ class MusicImporter
     @path = path
   end
   
-  def files
-    # loads all files in path directory
-    
-    # normalizes the filename to just MP3 filename (no path)
+   def files
+    files = []
+      Dir.new(self.path).each do |file|
+        files << file if file.length > 5
+      end
+    files
   end
 end
