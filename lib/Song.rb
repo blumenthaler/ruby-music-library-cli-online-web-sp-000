@@ -60,8 +60,7 @@ class Song
   artist = Artist.find_or_create_by_name(song_artist)
   genre = Genre.find_or_create_by_name(song_genre)
   
-  
-
+  self.new(song_name, artist, genre)
   end
   
 end
